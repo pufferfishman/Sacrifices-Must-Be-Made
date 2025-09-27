@@ -39,6 +39,7 @@
     {"id":{"name":"invis","path":"objects/invis/invis.yy",},},
     {"id":{"name":"platform","path":"objects/platform/platform.yy",},},
     {"id":{"name":"player1","path":"objects/player1/player1.yy",},},
+    {"id":{"name":"playerbody","path":"objects/playerbody/playerbody.yy",},},
     {"id":{"name":"pressurePlate","path":"objects/pressurePlate/pressurePlate.yy",},},
     {"id":{"name":"spike","path":"objects/spike/spike.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
