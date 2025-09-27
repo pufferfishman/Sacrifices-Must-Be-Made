@@ -35,14 +35,14 @@
   },
   "name":"Sacrifices Must Be Made",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},}
-    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},}
-    {"id":{"name":"DungeonTileset","path":"sprites/DungeonTileset/DungeonTileset.yy",},}
-    {"id":{"name":"Player","path":"sprites/Player/Player.yy",},}
-    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},}
-    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},}
-    {"id":{"name":"Sound1","path":"sounds/Sound1/Sound1.yy",},}
-    {"id":{"name":"player","path":"sprites/player/player.yy",},}
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy"}},
+    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy"}},
+    {"id":{"name":"DungeonTileset","path":"sprites/DungeonTileset/DungeonTileset.yy"}},
+    {"id":{"name":"Player","path":"sprites/Player/Player.yy"}},
+    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy"}},
+    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy"}},
+    {"id":{"name":"Sound1","path":"sounds/Sound1/Sound1.yy"}},
+    {"id":{"name":"player","path":"sprites/player/player.yy"}}
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
