@@ -23,9 +23,13 @@ else
 
 xsp = clamp(xsp, -max_speed, max_speed);
 
-if (place_meeting(x, y+1, platform))
+if (place_meeting(x, y+1, [invis, platform]))
 {
-	xsp = 1
+	ysp = 0
+	if keyboard_check_pressed(ord("W"))
+	{
+		ysp = jump_speed
+	}
 }
 
-move_and_collide(xsp, ysp, platform);
+move_and_collide(xsp, ysp, [invis, platform]);
