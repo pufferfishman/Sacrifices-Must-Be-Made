@@ -25,11 +25,7 @@ xsp = clamp(xsp, -max_speed, max_speed);
 
 if (place_meeting(x, y+1, platform))
 {
-    ysp = 0;
-    if (keyboard_check_pressed(vk_space)) || (keyboard_check_pressed(ord("W")))
-    {
-        ysp = jump_speed;
-    }
+	xsp = 1
 }
 
 move_and_collide(xsp, ysp, platform);
