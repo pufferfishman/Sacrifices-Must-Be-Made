@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"76e2dfcd-319c-4253-a941-cda2da18badd","name":"76e2dfcd-319c-4253-a941-cda2da18badd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"76e2dfcd-319c-4253-a941-cda2da18badd","name":"76e2dfcd-319c-4253-a941-cda2da18badd","resourceType":"GMSpriteFrame","resourceVersion":"2.0"},
   ],
   "gridX":0,
   "gridY":0,
