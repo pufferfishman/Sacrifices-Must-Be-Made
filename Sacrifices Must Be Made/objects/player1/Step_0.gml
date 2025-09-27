@@ -1,34 +1,28 @@
-// --- VARIABLES (put these in Create Event ideally) ---
-var accel = 0.4;     // how quickly we speed up
-var decel = 0.25;    // how quickly we slow down
-var max_speed = 2;   // maximum horizontal speed
+var accel = 0.4;  
+var decel = 0.25; 
+var max_speed = 2; 
 var grav = 0.2;
 var jump_speed = -3;
 
-// --- STEP EVENT ---
-// Gravity
+
 ysp += grav;
 
-// Horizontal movement with acceleration/deceleration
 if (keyboard_check(ord("A")))
 {
-    xsp -= accel; // accelerate left
+    xsp -= accel;
 }
 else if (keyboard_check(ord("D")))
 {
-    xsp += accel; // accelerate right
+    xsp += accel;
 }
 else
 {
-    // Decelerate toward 0 when no input
     if (xsp > 0) xsp = max(0, xsp - decel);
     if (xsp < 0) xsp = min(0, xsp + decel);
 }
 
-// Clamp horizontal speed
 xsp = clamp(xsp, -max_speed, max_speed);
 
-// Ground check + jump
 if (place_meeting(x, y+1, platform))
 {
     ysp = 0;
@@ -38,7 +32,4 @@ if (place_meeting(x, y+1, platform))
     }
 }
 
-// Apply movement
 move_and_collide(xsp, ysp, platform);
-
-// Spike collision check...
