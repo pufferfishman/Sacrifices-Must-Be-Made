@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"invis",
+  "%Name":"deathtrigger",
   "eventList":[],
   "managed":true,
-  "name":"invis",
+  "name":"deathtrigger",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -21,21 +21,16 @@
   "physicsRestitution":0.1,
   "physicsSensor":false,
   "physicsShape":1,
-  "physicsShapePoints":[
-    {"x":0.0,"y":0.0,},
-    {"x":14.0,"y":0.0,},
-    {"x":14.0,"y":16.0,},
-    {"x":0.0,"y":16.0,},
-  ],
+  "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"Sprite10",
-    "path":"sprites/Sprite10/Sprite10.yy",
+    "name":"Sprite9",
+    "path":"sprites/Sprite9/Sprite9.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
