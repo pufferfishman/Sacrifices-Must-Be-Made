@@ -19,7 +19,7 @@
   "height":16,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"877e0112-8f7c-47ca-a4c1-498dfeb81093","blendMode":0,"displayName":"default","isLocked":false,"name":"877e0112-8f7c-47ca-a4c1-498dfeb81093","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"877e0112-8f7c-47ca-a4c1-498dfeb81093","blendMode":0,"displayName":"default","isLocked":false,"name":"877e0112-8f7c-47ca-a4c1-498dfeb81093","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true},
   ],
   "name":"player",
   "nineSlice":null,
