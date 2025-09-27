@@ -1,14 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"player1",
+  "%Name":"playerbody",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"deathtrigger","path":"objects/deathtrigger/deathtrigger.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"player1",
+  "name":"playerbody",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -20,7 +18,7 @@
   "physicsDensity":0.5,
   "physicsFriction":0.2,
   "physicsGroup":1,
-  "physicsKinematic":false,
+  "physicsKinematic":true,
   "physicsLinearDamping":0.1,
   "physicsObject":false,
   "physicsRestitution":0.1,
