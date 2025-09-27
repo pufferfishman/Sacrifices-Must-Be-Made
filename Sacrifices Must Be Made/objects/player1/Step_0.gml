@@ -2,7 +2,7 @@ var accel = 0.4;
 var decel = 0.25; 
 var max_speed = 2; 
 var grav = 0.2;
-var jump_speed = -3;
+var jump_speed = -2.5;
 
 
 ysp += grav;
@@ -33,3 +33,8 @@ if (place_meeting(x, y+1, [invis, platform]))
 }
 
 move_and_collide(xsp, ysp, [invis, platform]);
+
+if (x > room_width) {
+    room_goto_next();
+    x = 0; 
+}
