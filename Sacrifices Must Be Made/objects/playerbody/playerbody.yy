@@ -18,7 +18,7 @@
   "physicsDensity":0.5,
   "physicsFriction":0.2,
   "physicsGroup":1,
-  "physicsKinematic":true,
+  "physicsKinematic":false,
   "physicsLinearDamping":0.1,
   "physicsObject":false,
   "physicsRestitution":0.1,

@@ -5,6 +5,7 @@ var deathy = y;
 // Create corpse BEFORE teleporting
 var body = instance_create_layer(deathx, deathy, "Instances", playerbody);
 
+
 // Copy player appearance to corpse
 body.sprite_index = sprite_index;
 body.image_index = image_index;

@@ -45,7 +45,7 @@ if (place_meeting(x, y+1, [invis, platform, playerbody])) {
     }
 }
 
-move_and_collide(xsp, ysp, [invis, platform]);
+move_and_collide(xsp, ysp, [invis, platform, playerbody]);
 
 if (x > room_width) {
     room_goto_next();
