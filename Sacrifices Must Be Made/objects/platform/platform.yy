@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Player",
+  "%Name":"platform",
   "eventList":[],
   "managed":true,
-  "name":"Player",
+  "name":"platform",
   "overriddenProperties":[],
   "parent":{
-    "name":"Sacrifices Must Be Made",
-    "path":"Sacrifices Must Be Made.yyp",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite6",
+    "path":"sprites/Sprite6/Sprite6.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
