@@ -36,8 +36,6 @@
   "name":"Sacrifices Must Be Made",
   "resources":[
     {"id":{"name":"deathtrigger","path":"objects/deathtrigger/deathtrigger.yy",},},
-    {"id":{"name":"invisible","path":"objects/invisible/invisible.yy",},},
-    {"id":{"name":"Object4","path":"objects/Object4/Object4.yy",},},
     {"id":{"name":"invis","path":"objects/invis/invis.yy",},},
     {"id":{"name":"platform","path":"objects/platform/platform.yy",},},
     {"id":{"name":"player1","path":"objects/player1/player1.yy",},},
