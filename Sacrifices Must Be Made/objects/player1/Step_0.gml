@@ -19,8 +19,7 @@ if place_meeting(x, y+1, platform)
 		ysp = -2
 	{
 { 
-move_and_collide(xsp, ysp,platform)
+move_and_collide(xsp, ysp, platform)
 
 //Spike Collision Check
 
-if place_meeting(x,y,)

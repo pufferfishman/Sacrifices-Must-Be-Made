@@ -9,8 +9,8 @@
   "name":"player1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Sacrifices Must Be Made",
-    "path":"Sacrifices Must Be Made.yyp",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
