@@ -1,10 +1,10 @@
 /// Step Event for playerbody
 
 if (Door.image_index = 0) {
-	var collisions = [invis,platform,player1,playerbody,pressurePlate]
+	var collisions = [invis,platform,player1,playerbody]
 }
 else {
-	var collisions = [invis,platform,player1,playerbody,pressurePlate, Door]
+	var collisions = [invis,platform,player1,playerbody, Door]
 }
 
 // === SETTINGS ===
