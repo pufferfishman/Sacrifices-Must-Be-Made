@@ -43,6 +43,7 @@
     {"id":{"name":"playerbody","path":"objects/playerbody/playerbody.yy",},},
     {"id":{"name":"pressurePlate","path":"objects/pressurePlate/pressurePlate.yy",},},
     {"id":{"name":"spike","path":"objects/spike/spike.yy",},},
+    {"id":{"name":"timer","path":"objects/timer/timer.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
