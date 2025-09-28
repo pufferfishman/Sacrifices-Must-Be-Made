@@ -1,4 +1,6 @@
 // --- Movement setup ---
+var collisions = [invis,platform,player1,playerbody,pressurePlate,Door]
+
 var accel = 0.4;  
 var decel = 0.25; 
 var max_speed = 2; 
@@ -41,7 +43,7 @@ else {
 xsp = clamp(xsp, -max_speed, max_speed);
 
 // Jumping
-if (place_meeting(x, y+1, [invis, platform, playerbody,pressurePlate])) {
+if (place_meeting(x, y+1, collisions)) {
     ysp = 0;
     if (keyboard_check_pressed(ord("W"))) {
         ysp = jump_speed;
@@ -51,7 +53,7 @@ if (place_meeting(x, y+1, [invis, platform, playerbody,pressurePlate])) {
     }
 }
 
-move_and_collide(xsp, ysp, [invis, platform, playerbody, pressurePlate]);
+move_and_collide(xsp, ysp, collisions);
 
 if (x > room_width) {
     room_goto_next();
