@@ -1,6 +1,11 @@
 /// Step Event for playerbody
 
-var collisions = [invis,platform,player1,playerbody,pressurePlate,Door]
+if (Door.image_index = 0) {
+	var collisions = [invis,platform,player1,playerbody,pressurePlate]
+}
+else {
+	var collisions = [invis,platform,player1,playerbody,pressurePlate, Door]
+}
 
 // === SETTINGS ===
 var grav = 0.2;

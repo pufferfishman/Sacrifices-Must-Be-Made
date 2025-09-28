@@ -1,11 +1,18 @@
 // --- Movement setup ---
-var collisions = [invis,platform,player1,playerbody,pressurePlate,Door]
+if (Door.image_index = 0) {
+	var collisions = [invis,platform,player1,playerbody,pressurePlate,Door]
+}
+else {
+	var collisions = [invis,platform,player1,playerbody,pressurePlate]
+}
 
 var accel = 0.4;  
 var decel = 0.25; 
 var max_speed = 2; 
 var grav = 0.2;
 var jump_speed = -2.5;
+
+
 
 // --- Death trigger check ---
 if (place_meeting(x, y, deathtrigger)) {
