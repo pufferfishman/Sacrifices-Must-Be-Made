@@ -28,11 +28,11 @@ if (falling) {
     while (abs(moveY) > 0) {
         var stepY = signY * min(1, abs(moveY));
 
-        if (!place_meeting(x, y + stepY, [invis,platform,playerbody,pressurePlate])) {
+        if (!place_meeting(x, y + stepY, [invis,platform,player1,playerbody,pressurePlate])) {
             y += stepY;
             moveY -= stepY;
         } else {
-            while (!place_meeting(x, y + signY, [invis,platform,playerbody,pressurePlate])) {
+            while (!place_meeting(x, y + signY, [invis,platform,player1,playerbody,pressurePlate])) {
                 y += signY;
             }
             ysp = 0;
@@ -41,7 +41,7 @@ if (falling) {
         }
     }
 } else {
-    if (!place_meeting(x, y + 1, [invis,platform, pressurePlate])) {
+    if (!place_meeting(x, y + 1, [invis,platform, pressurePlate,player1])) {
         falling = true;
     }
 }
