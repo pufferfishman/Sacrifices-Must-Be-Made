@@ -1,6 +1,6 @@
 image_speed = 0; 
 
-if (place_meeting(x, y, player1)) {
+if (place_meeting(x, y, [player1, playerbody])) {
     image_index = 1
 	if (!sound_playing) {
         audio_play_sound(pressureP, 1, false); // play once
