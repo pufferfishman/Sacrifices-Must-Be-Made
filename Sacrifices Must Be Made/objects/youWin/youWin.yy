@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Lvl1Text",
+  "%Name":"youWin",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Lvl1Text",
+  "name":"youWin",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
