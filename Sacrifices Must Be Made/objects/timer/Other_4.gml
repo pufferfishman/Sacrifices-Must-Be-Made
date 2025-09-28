@@ -1,0 +1,1 @@
+time_left = time_max;

@@ -11,3 +11,5 @@ death_y = y;
 death_sprite = 0
 death_image = 0
 teleport_delay = 60;
+sound_playing = false;
+death_playing = false;
