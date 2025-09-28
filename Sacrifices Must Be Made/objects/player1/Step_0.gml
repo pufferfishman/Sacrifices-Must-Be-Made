@@ -1,9 +1,9 @@
 // --- Movement setup ---
 if (Door.image_index = 0) {
-	var collisions = [invis,platform,player1,playerbody,pressurePlate,Door]
+	var collisions = [invis,platform,player1,playerbody,Door]
 }
 else {
-	var collisions = [invis,platform,player1,playerbody,pressurePlate]
+	var collisions = [invis,platform,player1,playerbody]
 }
 
 var accel = 0.4;  
