@@ -3,8 +3,8 @@
 // === SETTINGS ===
 var grav = 0.2;
 var max_fall = 6;
-var push_strength = 0.5;
-var fric = 0.1;
+var push_strength = 1;
+var fric = 0.2;
 
 // === FADE TO GRAYSCALE ===
 if (fade_timer < fade_duration) {
