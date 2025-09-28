@@ -38,14 +38,14 @@ else {
 xsp = clamp(xsp, -max_speed, max_speed);
 
 // Jumping
-if (place_meeting(x, y+1, [invis, platform, playerbody])) {
+if (place_meeting(x, y+1, [invis, platform, playerbody,pressurePlate])) {
     ysp = 0;
     if (keyboard_check_pressed(ord("W"))) {
         ysp = jump_speed;
     }
 }
 
-move_and_collide(xsp, ysp, [invis, platform, playerbody]);
+move_and_collide(xsp, ysp, [invis, platform, playerbody, pressurePlate]);
 
 if (x > room_width) {
     room_goto_next();
