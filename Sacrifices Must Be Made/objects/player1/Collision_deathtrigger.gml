@@ -14,3 +14,5 @@ body.image_speed = 0; // freeze animation
 // Finally teleport player
 x = startx;
 y = starty;
+
+audio_play_sound(deathSound, 1, false);

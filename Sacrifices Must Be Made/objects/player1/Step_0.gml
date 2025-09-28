@@ -7,6 +7,9 @@ var jump_speed = -2.5;
 
 // --- Death trigger check ---
 if (place_meeting(x, y, deathtrigger)) {
+	
+    
+    
     respawning = true;
     hit_timer = 0;
     xsp = 0;
@@ -42,6 +45,9 @@ if (place_meeting(x, y+1, [invis, platform, playerbody,pressurePlate])) {
     ysp = 0;
     if (keyboard_check_pressed(ord("W"))) {
         ysp = jump_speed;
+		if (!audio_is_playing(Jump)) {
+            audio_play_sound(Jump, 1, false);
+        }
     }
 }
 
@@ -51,3 +57,9 @@ if (x > room_width) {
     room_goto_next();
     x = 0; 
 }
+
+if (keyboard_check_pressed(ord("R"))) {
+    room_restart();
+}
+
+

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.8480046,
+  "duration":0.72854877,
   "name":"deathSound",
   "parent":{
     "name":"Sounds",
