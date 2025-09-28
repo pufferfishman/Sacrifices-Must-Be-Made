@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"deathSound",
+  "%Name":"Sound4",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.8480046,
-  "name":"deathSound",
+  "duration":0.0,
+  "name":"Sound4",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"deathSound.mp3",
+  "soundFile":"",
   "type":0,
   "volume":1.0,
 }
