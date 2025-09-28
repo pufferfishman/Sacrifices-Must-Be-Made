@@ -53,6 +53,7 @@
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"backgroundMus","path":"sounds/backgroundMus/backgroundMus.yy",},},
     {"id":{"name":"deathSound","path":"sounds/deathSound/deathSound.yy",},},
+    {"id":{"name":"door","path":"sounds/door/door.yy",},},
     {"id":{"name":"Jump","path":"sounds/Jump/Jump.yy",},},
     {"id":{"name":"pressureP","path":"sounds/pressureP/pressureP.yy",},},
     {"id":{"name":"DungeonTileset","path":"sprites/DungeonTileset/DungeonTileset.yy",},},

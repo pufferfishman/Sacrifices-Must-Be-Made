@@ -11,5 +11,5 @@ draw_set_color(c_red);
 draw_rectangle(x1, y1, x1 + current_width, y1 + bar_height, false);
 
 //outline
-draw_set_color(c_black);
+draw_set_color(c_white);
 draw_rectangle(x1, y1, x1 + bar_width, y1 + bar_height, true);
